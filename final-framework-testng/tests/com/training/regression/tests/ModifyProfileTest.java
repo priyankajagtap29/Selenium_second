@@ -46,8 +46,8 @@ public class ModifyProfileTest {
 	}
 	@Test
 	public void validLoginTest() {
-		profilePOM.sendUserName("priyanka");
-		profilePOM.sendPassword("passw0rd1");
+		profilePOM.sendUserName("manzoorme");
+		profilePOM.sendPassword("manzoor1");
 		profilePOM.clickLoginBtn(); 
 		screenShot.captureScreenShot("homepage");
 		profilePOM.clickmyprofile();

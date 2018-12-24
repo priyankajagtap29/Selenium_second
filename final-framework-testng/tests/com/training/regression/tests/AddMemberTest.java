@@ -51,12 +51,13 @@ public class AddMemberTest {
 		memPOM.sendPassword("1234");
 	    memPOM.clickLoginBtn(); 
 		//screenShot.captureScreenShot("Second");
-		memPOM.memUsername("priyanka");
+		memPOM.memUsername("manzoorme");
 		Thread.sleep(1000);
 		memPOM.clickpermbtn();
 		memPOM.selgroupid();
 		memPOM.sendcomment("access given");
 		memPOM.submitbtn();
+		screenShot.captureScreenShot("memberadded");
 	}
 
 }

@@ -46,9 +46,9 @@ public class CheckMemTest {
 	}
 	@Test
 	public void validLoginTest() {
-		memPOM.sendUserName("priyanka");
-		memPOM.sendPassword("passw0rd1");
+		memPOM.sendUserName("manzoorme");
+		memPOM.sendPassword("manzoor1");
 		memPOM.clickLoginBtn(); 
-		screenShot.captureScreenShot("First");
+		screenShot.captureScreenShot("Checkmem");
 	}
 }

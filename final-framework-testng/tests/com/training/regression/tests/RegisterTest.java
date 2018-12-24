@@ -49,16 +49,16 @@ public class RegisterTest {
 	@Test
 	public void validLoginTest() throws InterruptedException {
 		regPOM.clickregBtn(); 
-		regPOM.sendUserName("manzoor");
-		regPOM.sendFullname("manzoor");
-		regPOM.sendEmail("manzoor@gmail.com");
+		regPOM.sendUserName("manzoorme");
+		regPOM.sendFullname("manzoorme");
+		regPOM.sendEmail("manzoor21@gmail.com");
 		regPOM.sendgender();
 		regPOM.otherdetails("Bangalore","560054","Bangalore","9876543210","9876543210","9876543210","www.google.com");
 		regPOM.sendpassword("manzoor1");
 		regPOM.sendconfirmpassword("manzoor1");
 		TimeUnit.MINUTES.sleep(1);
 		regPOM.sendsubmit();
-		screenShot.captureScreenShot("Second");
+		screenShot.captureScreenShot("Registration");
 	}
 
 }
