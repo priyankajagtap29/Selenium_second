@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40133" started-at="2018-12-22T14:01:01Z" finished-at="2018-12-22T14:01:42Z">
+  <suite name="Default suite" duration-ms="10172" started-at="2018-12-24T06:56:37Z" finished-at="2018-12-24T06:56:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40133" started-at="2018-12-22T14:01:01Z" finished-at="2018-12-22T14:01:42Z">
+    <test name="Default test" duration-ms="10172" started-at="2018-12-24T06:56:37Z" finished-at="2018-12-24T06:56:47Z">
       <class name="com.training.regression.tests.ModifyProfileTest">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.ModifyProfileTest@6a41eaa2]" name="setUpBeforeClass" is-config="true" duration-ms="29" started-at="2018-12-22T14:01:01Z" finished-at="2018-12-22T14:01:01Z">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.regression.tests.ModifyProfileTest@6a41eaa2]" name="setUpBeforeClass" is-config="true" duration-ms="20" started-at="2018-12-24T06:56:37Z" finished-at="2018-12-24T06:56:37Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ModifyProfileTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="35844" started-at="2018-12-22T14:01:01Z" finished-at="2018-12-22T14:01:37Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.regression.tests.ModifyProfileTest@6a41eaa2]" name="setUp" is-config="true" duration-ms="5814" started-at="2018-12-24T06:56:37Z" finished-at="2018-12-24T06:56:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.regression.tests.ModifyProfileTest@6a41eaa2]" name="validLoginTest" duration-ms="2387" started-at="2018-12-22T14:01:37Z" finished-at="2018-12-22T14:01:40Z">
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.regression.tests.ModifyProfileTest@6a41eaa2]" name="validLoginTest" duration-ms="2357" started-at="2018-12-24T06:56:43Z" finished-at="2018-12-24T06:56:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ModifyProfileTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="1838" started-at="2018-12-22T14:01:40Z" finished-at="2018-12-22T14:01:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.regression.tests.ModifyProfileTest@6a41eaa2]" name="tearDown" is-config="true" duration-ms="1949" started-at="2018-12-24T06:56:45Z" finished-at="2018-12-24T06:56:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
